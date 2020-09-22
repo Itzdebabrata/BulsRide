@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/galary"
+        android:layout_width="397dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:text="GALARY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:backgroundTint="@color/red"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal"></TextView>
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="386dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="10dp"
+        android:text="CAMERA"
+        android:textSize="29dp"
+        android:backgroundTint="@color/red"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/galary"
+        app:layout_constraintRight_toRightOf="@id/galary"
+        app:layout_constraintTop_toBottomOf="@id/galary"
+        android:gravity="center_horizontal"></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

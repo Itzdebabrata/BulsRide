@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393121101980",
+    "firebase_url": "https://bulsride.firebaseio.com",
+    "project_id": "bulsride",
+    "storage_bucket": "bulsride.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393121101980:android:570915ecbda22485285559",
+        "android_client_info": {
+          "package_name": "com.example.bulsride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393121101980-0ml59ek9g3bhulq9r50pomvl5shnpl5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7EJ-VaIkbs0CE35arbu_G5br9htfTSJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393121101980-0ml59ek9g3bhulq9r50pomvl5shnpl5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

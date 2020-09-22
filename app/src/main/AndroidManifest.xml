@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bulsride">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Ridersapp"
+        android:allowBackup="true"
+        android:icon="@drawable/dj"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dj"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Workmanager.Practice"></activity>
+        <activity android:name=".ViewPager.OnBoardingActivity"></activity>
+        <activity android:name=".userAcivity.MenuDetails" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".FCM.firebasemassage"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".userAcivity.dialogbox2" />
+        <activity android:name=".userAcivity.Notesdetail" />
+        <activity android:name=".userAcivity.dialogbbox" />
+        <activity android:name=".userAcivity.PhoneVerify" />
+        <activity android:name=".userAcivity.user_profile3" />
+        <activity android:name=".userAcivity.User" />
+        <activity android:name=".userAcivity.Signup" />
+        <activity android:name=".userAcivity.Login" />
+        <activity android:name=".userAcivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
