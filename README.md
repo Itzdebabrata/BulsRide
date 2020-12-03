@@ -2,7 +2,7 @@
 --
 ### A fully Material Blog app with minimal features, just enough to be useful.
 It can be used as a bloging app that can store information about the places you currently visited 
-that can helpfull for others who plains to visit their.
+that can helpfull for others who plains to visit that place.
 ### screenslots
 <table>
         <tr>
